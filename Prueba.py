@@ -106,7 +106,7 @@ def menu():
      os.system ("cls")
      print("siguiente ronda")
      if(len(posicion)>=3):
-        print(" finalistas \n primer lugar",posicion[0],"\n segundo lugar",posicion[1],"\n tercer lugar",posicion[2])
+        print(" finalistas \n Primer lugar",posicion[0],"\n Segundo lugar",posicion[1],"\n Tercer lugar",posicion[2])
         tabla.extend(posicion)
         t=input("¿Quieres saber cuantas veces gano un jugador? \n si  \n no \n")
         if(t=="si"):
